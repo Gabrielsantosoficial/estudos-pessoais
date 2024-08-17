@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+}
+
+.mais {
+    background-color: green;
+}
+
+.menos {
+    background-color: red;
+}
+
+#numero {
+    font-size: 30px;
+}
